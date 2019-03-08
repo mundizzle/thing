@@ -3,11 +3,9 @@
     <title>pHTML JSX</title>
   </head>
   <body>
-    {
-      [0, 1, 2].map(item => {
-        return <div>hello{item}</div>; 
-      })
-    }
+    {[0, 1, 2].map(item => {
+      return <div>hello{item}</div>;
+    })}
     <p class={pClass}>Hello, {name}!</p>
   </body>
-</html>
+</html>;
