@@ -1,13 +1,12 @@
-<html lang="en" dir={dir}>
+<html jsx lang="en" dir={dir}>
   <head>
     <title>pHTML JSX</title>
   </head>
   <body>
     {
       [0, 1, 2].map(item => {
-        console.log(item) 
-        return <div>hello{String(item)}</div>; 
-      }).join('')
+        return <div>hello{item}</div>; 
+      })
     }
     <p class={pClass}>Hello, {name}!</p>
   </body>
