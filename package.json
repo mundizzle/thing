@@ -13,8 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node --experimental-modules ./build",
     "update": "npx npm-check-updates -u && npm install",
-    "lint": "lynt",
-    "precommit": "npm lint-staged && npm lint"
+    "lint": "lynt"
   },
   "repository": {
     "type": "git",
